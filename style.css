@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E5E5E5;
+    
+}
+
+#navbar{
+width: 100%;
+background-color: #2A5495;
+height: 4rem;
+text-align: center;
+font-size: 22px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+padding:1rem;
+color: white;
+text-shadow: 2px 2px 3px  #01204E;
+}
+#nav-para{
+background-color: #2A5495;
+
+}
+#btn-main{
+    background-color: #F3F2F0;
+    width: 100%;
+    height: 25vh;
+    margin-top: .1rem;
+    
+
+}
+#FontFamily{
+    background-color: #F3F2F0;
+    position: relative;
+    top: 2rem;
+    left: 3rem;
+}
+
+#Font-Select{
+    cursor: pointer;
+    background-color: white;
+    width: 8rem;
+    height: 2rem;
+    color: rgb(75, 75, 75);
+}
+
+#FontSizeList{
+    background-color: #F3F2F0;
+    position: relative;
+    top: 0rem;
+    left: 13rem;
+}
+
+#FontSize{
+    cursor: pointer;
+    background-color: white;
+    width: 4rem;
+    height: 2rem;
+    color: rgb(75, 75, 75);
+
+}
+
+#fontIncrement{
+    background-color: #F3F2F0;
+    position: relative;
+    top:-2rem;
+    left: 20rem;
+}
+#F-increment{
+    cursor: pointer;
+    width: 3rem;
+    height: 2rem;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+#F-increment:hover{
+    background-color: #E5E5E5;
+
+}
+#fontDecrement{
+    background-color: #F3F2F0;
+    position: relative;
+    top:-4rem;
+    left: 23rem;
+}
+#F-Decrement{
+    cursor: pointer;
+    width: 3rem;
+    height: 2rem;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+sup{
+    background-color: #01204e00;
+}
+#F-Decrement:hover{
+    background-color: #E5E5E5;
+}
+#ChangingCase{
+    background-color: #F3F2F0;
+    position: relative;
+    top:-6rem;
+    left: 26.5rem;
+}
+#C-Case{
+    cursor: pointer;
+    width: 3rem;
+    height: 2rem;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+#C-Case:hover{
+    background-color: #E5E5E5;
+}
+
+#ClearAll{
+    background-color: #F3F2F0;
+    position: relative;
+    top:-8rem;
+    left: 30rem;
+}
+#C-All{
+    cursor: pointer;
+    width: 3rem;
+    height: 2rem;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+#C-All:hover{
+    background-color: #E5E5E5;
+}
+.fa-solid{
+    background-color: #01204e00;
+}
+#Left-btn{
+    background-color: #F3F2F0;
+    position: relative;
+    top:-10rem;
+    left: 35rem;
+}
+#L-btn{
+    cursor: pointer;
+    width: 4rem;
+    height: 2rem;
+}
+#Center-btn{
+    background-color: #F3F2F0;
+    position: relative;
+    top:-12rem;
+    left: 41.5rem;
+}
+#C-btn{
+    cursor: pointer;
+    width: 5rem;
+    height: 2rem;
+}
+#Rigth-btn{
+    background-color: #F3F2F0;
+    position: relative;
+    top:-14rem;
+    left: 49rem;
+}
+#R-btn{
+    cursor: pointer;
+    width: 4rem;
+    height: 2rem;
+}
+
+#Search{
+    background-color: #F3F2F0;
+    position: relative;
+    top:-16rem;
+    left: 57rem;
+    
+    
+}
+#S-btn{
+    cursor: pointer;
+    width: 5rem;
+    height: 2rem;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+#S-btn:hover{
+    background-color: #E5E5E5;
+
+}
+.fa-magnifying-glass {
+    position: relative;
+    left: -1rem;
+}
+
+#Replace{
+    background-color: #F3F2F0;
+    position: relative;
+    top:-18.5rem;
+    left: 65rem;
+    
+    
+}
+#Rep-btn{
+    cursor: pointer;
+    width: 6rem;
+    height: 3rem;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+#Rep-btn:hover{
+    background-color: #E5E5E5;
+
+}
+.fa-slack{
+    position: relative;
+    left: -1rem;
+}
+
+#bold{
+    background-color: #F3F2F0;
+    position: relative;
+    top:-19rem;
+    left: 2.8rem;
+    
+}
+#b-Text{
+    cursor: pointer;
+    width: 2.5rem;
+    height: 2.5rem;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 17px;
+}
+#b-Text:hover{
+    background-color: #E5E5E5;
+}
+#italic{
+    background-color: #F3F2F0;
+    position: relative;
+    top:-21.5rem;
+    left: 5rem;
+    
+}
+#i-Text{
+    cursor: pointer;
+    width: 2.5rem;
+    height: 2.5rem;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 17px;
+}
+#i-Text:hover{
+    background-color: #E5E5E5;
+}
+#underline{
+    background-color: #F3F2F0;
+    position: relative;
+    top:-24rem;
+    left: 7rem;
+    
+}
+#u-Text{
+    cursor: pointer;
+    width: 2.5rem;
+    height: 2.5rem;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 17px;
+}
+#u-Text:hover{
+    background-color: #E5E5E5;
+}
+
+#strikeThrough{
+    background-color: #F3F2F0;
+    position: relative;
+    top:-26.2rem;
+    left: 11.5rem;
+}
+#st-Text{
+    cursor: pointer;
+    width: 7rem;
+    height: 2rem;
+}
+#color{
+    background-color: #F3F2F0;
+    position: relative;
+    top:-28.5rem;
+    left: 22rem;
+    
+}
+#c-Text{
+    cursor: pointer;
+    width: 2.5rem;
+    height: 2.5rem;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 17px;
+}
+#c-Text:hover{
+    background-color: #E5E5E5;
+}
+
+#bgcolor{
+    background-color: #F3F2F0;
+    position: relative;
+    top:-31rem;
+    left: 26.5rem;
+    
+}
+#bg-Text{
+    cursor: pointer;
+    width: 2.5rem;
+    height: 2.5rem;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 17px;
+}
+#bg-Text:hover{
+    background-color: #E5E5E5;
+}
+
+/* #textarea{
+} */
+
+#Text{
+    background-color: white;
+    border: 5px rgb(51, 50, 50);
+    outline: none; 
+    position: relative;
+    top: -26rem;
+    width: 50rem;
+    height: 30rem;
+    margin-left: 14rem;
+   text-transform: uppercase;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}

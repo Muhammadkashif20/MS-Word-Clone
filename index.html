@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MS Word</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div id="main">
+        <div id="navbar">
+            <p id="nav-para">Muhammad Kashif - Ms Word Clone</p>
+        </div>
+        <div id="btn-main">
+         <div id="FontFamily">
+            <select  id="Font-Select"  >
+                <option value="Font Family" disabled selected>Font Family</option>
+                <option value="Time New Roman" >Time New Roman</option>
+                <option value="Arial">Arial</option>
+                <option value="Trebuchet Ms">Trebuchet Ms</option>
+            </select>
+        </div>
+        <div id="FontSizeList">
+           <select  id="FontSize">
+            <option value="F-Size" selected disabled>F-Size</option>
+            <option value="8">8</option>
+            <option value="10">10</option>
+            <option value="12">12</option>
+            <option value="14">14</option>
+            <option value="20">20</option>
+            <option value="24">24</option>        
+            <option value="30">30</option>
+            <option value="32">32</option>
+            <option value="36">36</option>
+            <option value="42">42</option>
+            <option value="44">44</option>
+            <option value="46">46</option>
+            <option value="52">52</option>
+            <option value="72...">72...</option>
+           
+       
+           </select>
+           
+        </div>
+        <div id="fontIncrement">
+            <button id="F-increment" style="font-size: 18px; color: rgb(68, 67, 67); ">A<sup>▴</sup></button>
+        </div>   
+        <div id="fontDecrement">
+            <button id="F-Decrement" style="font-size: 14px;  color: rgb(68, 67, 67);" >A<sup>▾</sup></button>
+        </div>  
+        <div id="ChangingCase">
+            <button id="C-Case" style="font-size: 17px; color: rgb(68, 67, 67);">Aa</button>
+        </div>  
+        <div id="ClearAll">
+            <button id="C-All" style=" color: rgb(68, 67, 67); font-size: 14px;" onclick="clearAll()">A<i class="fa-solid fa-eraser" style="color: #e84566; font-size: 12px;" ></i></button>
+        </div>  
+        <div id="Left-btn">
+            <button id="L-btn" style=" color: rgb(68, 67, 67); font-size: 14px;">Left </button>
+        </div> 
+        <div id="Center-btn">
+            <button id="C-btn" style=" color: rgb(68, 67, 67); font-size: 14px;">Center </button>
+        </div> 
+        <div id="Rigth-btn">
+            <button id="R-btn" style=" color: rgb(68, 67, 67); font-size: 14px;">Right </button>
+        </div> 
+        <div id="Search">
+            <button id="S-btn" onclick="Search()"> <i class="fa-solid fa-magnifying-glass " ></i>Find</button>
+        </div>
+        <div id="Replace">
+            <button id="Rep-btn"> <i class="fa-brands fa-slack"></i>Replace</button>
+        </div>
+        <br>
+        <div id="bold">
+            <button id="b-Text"><b>B</b></button>
+        </div>
+        <div id="italic">
+            <button id="i-Text"><b>I</b></button>
+        </div>
+        <div id="underline">
+            <button id="u-Text"><b>U</b></button>
+        </div>
+        <div id="strikeThrough">
+            <button id="st-Text">StrikeThrough</button>
+        </div>
+        <div id="color">
+            <button id="c-Text"><i class="fa-solid fa-brush"></i></button>
+        </div>
+        <div id="bgcolor">
+            <button id="bg-Text"><i class="fa-solid fa-fill"></i></button>
+        </div>
+    <div id="textarea" >
+        <textarea  id="Text" rows="35" cols="105" >      
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim alias nostrum deleniti porro fugiat praesentium ex aperiam et amet architecto rem, nesciunt accusantium aut! Natus autem neque earum harum quo!
+        </textarea>
+    </div>
+
+</div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
