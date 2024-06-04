@@ -106,21 +106,20 @@ sup{
 }
 #C-Case{
     cursor: pointer;
-    width: 3rem;
+    width: 7rem;
     height: 2rem;
-    outline: none;
-    border: none;
-    background-color: rgba(0, 0, 0, 0);
-}
-#C-Case:hover{
-    background-color: #E5E5E5;
+    font-size: medium;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(75, 75, 75);
+   
 }
 
 #ClearAll{
     background-color: #F3F2F0;
     position: relative;
     top:-8rem;
-    left: 30rem;
+    left: 35rem;
 }
 #C-All{
     cursor: pointer;
@@ -140,7 +139,8 @@ sup{
     background-color: #F3F2F0;
     position: relative;
     top:-10rem;
-    left: 35rem;
+    left: 39rem;
+    height: 6.5rem;
 }
 #L-btn{
     cursor: pointer;
@@ -150,8 +150,8 @@ sup{
 #Center-btn{
     background-color: #F3F2F0;
     position: relative;
-    top:-12rem;
-    left: 41.5rem;
+    top:-16.5rem;
+    left: 45.5rem;
 }
 #C-btn{
     cursor: pointer;
@@ -161,8 +161,8 @@ sup{
 #Rigth-btn{
     background-color: #F3F2F0;
     position: relative;
-    top:-14rem;
-    left: 49rem;
+    top:-18.5rem;
+    left: 53rem;
 }
 #R-btn{
     cursor: pointer;
@@ -170,60 +170,10 @@ sup{
     height: 2rem;
 }
 
-#Search{
-    background-color: #F3F2F0;
-    position: relative;
-    top:-16rem;
-    left: 57rem;
-    
-    
-}
-#S-btn{
-    cursor: pointer;
-    width: 5rem;
-    height: 2rem;
-    outline: none;
-    border: none;
-    background-color: rgba(0, 0, 0, 0);
-}
-#S-btn:hover{
-    background-color: #E5E5E5;
-
-}
-.fa-magnifying-glass {
-    position: relative;
-    left: -1rem;
-}
-
-#Replace{
-    background-color: #F3F2F0;
-    position: relative;
-    top:-18.5rem;
-    left: 65rem;
-    
-    
-}
-#Rep-btn{
-    cursor: pointer;
-    width: 6rem;
-    height: 3rem;
-    outline: none;
-    border: none;
-    background-color: rgba(0, 0, 0, 0);
-}
-#Rep-btn:hover{
-    background-color: #E5E5E5;
-
-}
-.fa-slack{
-    position: relative;
-    left: -1rem;
-}
-
 #bold{
     background-color: #F3F2F0;
     position: relative;
-    top:-19rem;
+    top:-18rem;
     left: 2.8rem;
     
 }
@@ -235,6 +185,7 @@ sup{
     border: none;
     background-color: rgba(0, 0, 0, 0);
     font-size: 17px;
+    font-weight: bold;
 }
 #b-Text:hover{
     background-color: #E5E5E5;
@@ -242,7 +193,7 @@ sup{
 #italic{
     background-color: #F3F2F0;
     position: relative;
-    top:-21.5rem;
+    top:-20.5rem;
     left: 5rem;
     
 }
@@ -261,7 +212,7 @@ sup{
 #underline{
     background-color: #F3F2F0;
     position: relative;
-    top:-24rem;
+    top:-23rem;
     left: 7rem;
     
 }
@@ -273,6 +224,7 @@ sup{
     border: none;
     background-color: rgba(0, 0, 0, 0);
     font-size: 17px;
+
 }
 #u-Text:hover{
     background-color: #E5E5E5;
@@ -281,66 +233,68 @@ sup{
 #strikeThrough{
     background-color: #F3F2F0;
     position: relative;
-    top:-26.2rem;
-    left: 11.5rem;
+    top:-25.3rem;
+    left:11rem;
+  
+
 }
 #st-Text{
     cursor: pointer;
-    width: 7rem;
+    width: 2rem;
     height: 2rem;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 17px;
+}
+#st-Text:hover{
+    background-color: #E5E5E5;
 }
 #color{
     background-color: #F3F2F0;
     position: relative;
-    top:-28.5rem;
-    left: 22rem;
-    
+    top:-27.5rem;
+    left: 15rem;
+    font-size: 14px;
 }
 #c-Text{
     cursor: pointer;
-    width: 2.5rem;
-    height: 2.5rem;
-    outline: none;
-    border: none;
-    background-color: rgba(0, 0, 0, 0);
-    font-size: 17px;
+    width: 5rem;
+    height: 2rem;
+    font-size: medium;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(75, 75, 75);
+   
 }
-#c-Text:hover{
-    background-color: #E5E5E5;
-}
+
 
 #bgcolor{
     background-color: #F3F2F0;
     position: relative;
-    top:-31rem;
-    left: 26.5rem;
-    
+    top:-29.5rem;
+    left: 22.5rem;
+    font-size: 14px;
 }
 #bg-Text{
     cursor: pointer;
-    width: 2.5rem;
-    height: 2.5rem;
-    outline: none;
-    border: none;
-    background-color: rgba(0, 0, 0, 0);
-    font-size: 17px;
-}
-#bg-Text:hover{
-    background-color: #E5E5E5;
+    width: 5rem;
+    height: 2rem;
+    font-size: medium;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(75, 75, 75);
 }
 
-/* #textarea{
-} */
+
 
 #Text{
     background-color: white;
     border: 5px rgb(51, 50, 50);
     outline: none; 
     position: relative;
-    top: -26rem;
+    top: -25rem;
     width: 50rem;
     height: 30rem;
     margin-left: 14rem;
-   text-transform: uppercase;
-    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
 }

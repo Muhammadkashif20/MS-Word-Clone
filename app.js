@@ -2,13 +2,11 @@ var ffamily = document.getElementById("Font-Select");
 var fsize = document.getElementById("FontSize");
 var fincrement = document.getElementById("F-increment");
 var fdecrement = document.getElementById("F-Decrement");
+var clearAll=document.getElementById('C-All')
 var ChangingCase = document.getElementById("C-Case");
-var ClearAll = document.getElementById("C-All");
 var Leftbtn = document.getElementById("L-btn");
 var Centerbtn = document.getElementById("Center-btn");
 var Rigthbtn = document.getElementById("R-btn");
-var Search = document.getElementById("S-btn");
-var Replace = document.getElementById("Rep-btn");
 var bold = document.getElementById("b-Text");
 var italic = document.getElementById("i-Text");
 var underline = document.getElementById("u-Text");
@@ -165,13 +163,95 @@ else if(count=='72'){
 }
 }
  )
-
  ChangingCase.addEventListener('click',function() {
-    var userCase=prompt('Enter Your Case')
-    if(ChangingCase.innerText=='uppercase'){
-        textarea.style.textTransform='uppercase'
-    }
-    else if(ChangingCase.innerText=='lowercase'){
-        textarea.style.textTransform='lowercase'
-    }
+if(ChangingCase.value=='upperCase'){
+    textarea.style.textTransform='upperCase'
+}
+else if(
+ ChangingCase.value=='lowerCase'){
+    textarea.style.textTransform='lowerCase'
+}
+else if(ChangingCase.value=='capitalize'){
+    textarea.style.textTransform='capitalize'
+}
  })
+
+
+ clearAll.addEventListener('click',function () {
+   location.reload()
+ })
+
+ Leftbtn.addEventListener('click',function () {
+    
+        textarea.style.textAlign='left'
+    
+ })
+ Centerbtn.addEventListener('click',function () {
+        textarea.style.textAlign='center'
+    
+ })
+ Rigthbtn.addEventListener('click',function () {
+    textarea.style.textAlign='right'
+
+})
+
+bold.addEventListener('click',function () {
+ textarea.style.fontWeight='bold'
+})
+italic.addEventListener('click',function () {
+    textarea.style.fontStyle='italic'
+   })
+   underline.addEventListener('click',function () {
+    textarea.style.textDecoration='underline'
+   })
+
+   strike.addEventListener('click',function () {
+    textarea.style.textDecoration=' line-through'
+   })
+
+   color.addEventListener('click',function () {
+    if(color.value=='yellow'){
+        textarea.style.color='yellow'
+    }
+    else if(color.value=='blue'){
+        textarea.style.color='blue'
+    }
+    else if(color.value=='orange'){
+        textarea.style.color='orange'
+    }
+    else if(color.value=='red'){
+        textarea.style.color='red'
+    }
+    else if(color.value=='green'){
+        textarea.style.color='green'
+    }
+    else if(color.value=='white'){
+        textarea.style.color='white'
+    }
+
+    
+   })
+   bgColor.addEventListener('click',function () {
+    if(bgColor.value=='yellow'){
+        textarea.style.backgroundColor='yellow'
+    }
+    else if(bgColor.value=='blue'){
+        textarea.style.backgroundColor='blue'
+    }
+    else if(bgColor.value=='orange'){
+        textarea.style.backgroundColor='orange'
+    }
+    else if(bgColor.value=='red'){
+        textarea.style.backgroundColor='red'
+    }
+    else if(bgColor.value=='green'){
+        textarea.style.backgroundColor='green'
+    }
+    else if(bgColor.value=='black'){
+        textarea.style.backgroundColor='black'
+    }
+
+    
+   })
+ 
+ 

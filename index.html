@@ -50,10 +50,15 @@
             <button id="F-Decrement" style="font-size: 14px;  color: rgb(68, 67, 67);" >A<sup>▾</sup></button>
         </div>  
         <div id="ChangingCase">
-            <button id="C-Case" style="font-size: 17px; color: rgb(68, 67, 67);">Aa</button>
+            <select id="C-Case" style="font-size: 17px; color: rgb(68, 67, 67);">Font Case
+            <option value="Font Case" selected disabled>Font Case</option>
+            <option value="upperCase">upperCase</option>
+            <option value="lowerCase">lowerCase</option>
+            <option value="capitalize">capitalize</option>
+        </select>
         </div>  
         <div id="ClearAll">
-            <button id="C-All" style=" color: rgb(68, 67, 67); font-size: 14px;" onclick="clearAll()">A<i class="fa-solid fa-eraser" style="color: #e84566; font-size: 12px;" ></i></button>
+            <button id="C-All" style=" color: rgb(68, 67, 67); font-size: 14px;" >A<i class="fa-solid fa-eraser" style="color: #e84566; font-size: 12px;" ></i></button>
         </div>  
         <div id="Left-btn">
             <button id="L-btn" style=" color: rgb(68, 67, 67); font-size: 14px;">Left </button>
@@ -64,35 +69,47 @@
         <div id="Rigth-btn">
             <button id="R-btn" style=" color: rgb(68, 67, 67); font-size: 14px;">Right </button>
         </div> 
-        <div id="Search">
-            <button id="S-btn" onclick="Search()"> <i class="fa-solid fa-magnifying-glass " ></i>Find</button>
-        </div>
-        <div id="Replace">
-            <button id="Rep-btn"> <i class="fa-brands fa-slack"></i>Replace</button>
-        </div>
         <br>
         <div id="bold">
-            <button id="b-Text"><b>B</b></button>
+            <button id="b-Text">B</button>
         </div>
         <div id="italic">
-            <button id="i-Text"><b>I</b></button>
+            <button id="i-Text" style="font-style: italic;">I</button>
         </div>
         <div id="underline">
-            <button id="u-Text"><b>U</b></button>
+            <button id="u-Text" >U</button>
         </div>
         <div id="strikeThrough">
-            <button id="st-Text">StrikeThrough</button>
+            <button id="st-Text" style="text-decoration: line-through;">abc</button>
         </div>
         <div id="color">
-            <button id="c-Text"><i class="fa-solid fa-brush"></i></button>
+            <select id="c-Text">
+            <option value="Colors" selected disabled>Colors</option>
+            <option value="yellow">yellow</option>
+            <option value="blue">blue</option>
+            <option value="orange">orange</option>
+            <option value="red">red</option>
+            <option value="green">green</option>
+            <option value="white">white</option>
+
+            
+            </select>
         </div>
         <div id="bgcolor">
-            <button id="bg-Text"><i class="fa-solid fa-fill"></i></button>
+            <select id="bg-Text">
+                <option value="Colors" selected disabled>bg-Colors</option>
+                <option value="yellow">yellow</option>
+                <option value="blue">blue</option>
+                <option value="orange">orange</option>
+                <option value="red">red</option>
+                <option value="green">green</option>
+                <option value="black">black</option>
+            </select>
         </div>
+        <br>
+    
     <div id="textarea" >
-        <textarea  id="Text" rows="35" cols="105" >      
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim alias nostrum deleniti porro fugiat praesentium ex aperiam et amet architecto rem, nesciunt accusantium aut! Natus autem neque earum harum quo!
-        </textarea>
+        <textarea  id="Text" rows="35" cols="105" ></textarea>
     </div>
 
 </div>
