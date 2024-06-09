@@ -177,7 +177,7 @@ sup{
     left: 2.8rem;
     
 }
-#b-Text{
+#bText{
     cursor: pointer;
     width: 2.5rem;
     height: 2.5rem;
@@ -187,7 +187,7 @@ sup{
     font-size: 17px;
     font-weight: bold;
 }
-#b-Text:hover{
+#bText:hover{
     background-color: #E5E5E5;
 }
 #italic{
@@ -195,6 +195,7 @@ sup{
     position: relative;
     top:-20.5rem;
     left: 5rem;
+    
     
 }
 #i-Text{

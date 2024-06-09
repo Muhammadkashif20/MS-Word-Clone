@@ -7,7 +7,7 @@ var ChangingCase = document.getElementById("C-Case");
 var Leftbtn = document.getElementById("L-btn");
 var Centerbtn = document.getElementById("Center-btn");
 var Rigthbtn = document.getElementById("R-btn");
-var bold = document.getElementById("b-Text");
+var bold = document.getElementById("bText");
 var italic = document.getElementById("i-Text");
 var underline = document.getElementById("u-Text");
 var strike = document.getElementById("st-Text");
@@ -188,25 +188,57 @@ else if(ChangingCase.value=='capitalize'){
  })
  Centerbtn.addEventListener('click',function () {
         textarea.style.textAlign='center'
-    
  })
  Rigthbtn.addEventListener('click',function () {
     textarea.style.textAlign='right'
-
 })
 
 bold.addEventListener('click',function () {
- textarea.style.fontWeight='bold'
+if(bold.innerText=='B'){
+    textarea.style.fontWeight='bold'  
+    bold.innerText='b'
+
+}
+else if(bold.innerText=='b'){
+    textarea.style.fontWeight='normal'  
+    bold.innerText='B'
+}
 })
 italic.addEventListener('click',function () {
+    if(italic.innerText=='I'){
     textarea.style.fontStyle='italic'
+    italic.innerText='i'
+}
+else if( italic.innerText='i'){
+    textarea.style.fontStyle='normal'
+    italic.innerText='I'
+
+}
    })
+
    underline.addEventListener('click',function () {
-    textarea.style.textDecoration='underline'
+    if(underline.innerText=='U'){
+        textarea.style.textDecoration='underline'
+        underline.innerText='u'
+    }
+    else if(underline.innerText='i'){
+        textarea.style.textDecoration='none'
+        underline.innerText='U'
+    
+    }
+   
    })
 
    strike.addEventListener('click',function () {
+    if(strike.innerText=='abc'){
     textarea.style.textDecoration=' line-through'
+        strike.innerText='Abc'
+    }
+    else if(strike.innerText='Abc'){
+        textarea.style.textDecoration='none'
+        strike.innerText='abc'
+    
+    }
    })
 
    color.addEventListener('click',function () {
@@ -227,6 +259,9 @@ italic.addEventListener('click',function () {
     }
     else if(color.value=='white'){
         textarea.style.color='white'
+    }
+    else if(color.value=='none'){
+        textarea.style.color='black'
     }
 
     
@@ -249,6 +284,9 @@ italic.addEventListener('click',function () {
     }
     else if(bgColor.value=='black'){
         textarea.style.backgroundColor='black'
+    }
+    else if(bgColor.value=='none'){
+        textarea.style.backgroundColor='white'
     }
 
     
